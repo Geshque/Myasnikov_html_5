@@ -1,0 +1,229 @@
+body {
+    color: #000;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+/*Common*/
+.cleafix {
+    display: table;
+    clear: both;
+    content: '';
+}
+/*Header*/
+header {
+    width: 100%;
+    height: 36px;
+    margin: 0 auto;
+    background: url('../img/bg-header.jpg') repeat-x;
+}
+
+.container {
+    width: 1215px;
+    margin: 0 auto;
+
+}
+
+.offers-header,
+.login-header,
+.main-menu {
+    margin-right: 15px;
+    float: right;
+    line-height: 36px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.main-menu {
+    border-right: 1px solid #56a2dc;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu a:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.main-menu a {
+    display: block;
+    padding: 0 15px;
+    color: #60b5ed;
+    text-decoration: none;
+}
+
+.offers-header a {
+    padding: 5px 0 5px 30px;
+    background: url('../img/flag.png') 0 50% no-repeat;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.login-header {
+    height: 35px;
+    border: 1px solid #449ad3;
+    background: url('../img/bg-login-header.png');
+    color: #fff;
+}
+
+.login-header p {
+    padding: 0 10px;
+    margin: 0;
+}
+
+.login-header a {
+    padding: 5px;
+    color: #fff;
+}
+
+/*Main*/
+main {
+    margin: 0 auto;
+    padding-top: 200px;
+    background: url('../img/bg-main.jpg') 50% 50% no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+input {
+    border: 0;
+}
+
+.sign-in {
+    width: 560px;
+    height: 765px;
+    margin: 0 auto;
+    color: #ccc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sign-in h1 {
+    width: 560px;
+    height: 65px;
+    margin-bottom: 2px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, .63);
+    color: #fff;
+    font-size: 24px;
+    box-sizing: border-box;
+}
+
+.sign-in .form-wrapper {
+    width: 560px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, .63);
+}
+
+.sign-in-facebook {
+    display: inline-block;
+    width: 276px;
+    height: 35px;
+    margin: 35px 0 30px;
+    border: 1px solid #405280;
+    border-top: 1px solid #7a8cb4;
+    border-radius: 5px;
+    background-image: linear-gradient(to top, #314375, #3f5795);
+    color: #fff;
+    text-align: left;
+}
+
+.sign-in-facebook span {
+    display: inline-block;
+    height: 35px;
+    margin-top: -2px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sign-in-facebook span:first-child {
+    width: 30px;
+    margin-right: -5px;
+    padding-right: 5px;
+    border-right: 1px solid #223e70;
+    font-size: 25px;
+}
+
+.sign-in-facebook span:nth-child(2) {
+    padding-left: 25px;
+    border-left: 1px solid #4d66a6;
+}
+
+.sign-in-facebook span:nth-child(3) {
+    font-weight: 100;
+}
+
+.sign-in-facebook span:last-child {
+    padding: 0 10px;
+}
+
+.divide-line {
+    margin-bottom: 30px;
+}
+
+.divide-line::before,
+.divide-line::after {
+    display: inline-block;
+    width: 120px;
+    height: 1px;
+    margin: 0 7px;
+    background: #666;
+    -moz-box-shadow: 0 1px 0 0 #000;
+    -webkit-box-shadow: 0 1px 0 0 #000;
+    box-shadow: 0 1px 0 0 #000;
+    content: ' ';
+    vertical-align: middle;
+}
+
+fieldset {
+    width: 276px;
+    margin: 0 auto;
+    text-align: left;
+    border: none;
+}
+
+.sign-in-form input[type="text"],
+.sign-in-form input[type="email"],
+.sign-in-form input[type="password"] {
+    width: 276px;
+    height: 35px;
+    margin: 10px;
+    padding: 15px;
+    background-image: url('../img/bg-form.png');
+    color: #ccc;
+    box-sizing: border-box;
+}
+
+.sign-in-form input[type="text"]:focus,
+.sign-in-form input[type="email"]:focus,
+.sign-in-form input[type="password"]:focus {
+    background: url('../img/bg-form_active.png') 50% 50% no-repeat;
+    box-shadow: 0 1px 10px 2px #518cb4;
+}
+
+.sign-in-form .checkbox-confirmation {
+    margin-left: 10px;
+}
+
+.sign-in-form input[type="button"] {
+    width: 149px;
+    height: 35px;
+    margin: 15px;
+    background: url('../img/create-button.png') no-repeat;
+    color: #fff;
+}
+
+.sign-in p {
+    width: 310px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 15px;
+}
